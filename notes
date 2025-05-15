@@ -1,0 +1,39 @@
+// How I decide which instructions to use:
+
+// 1. Task Analysis:
+// First, I analyze the nature of the task. For the button component example, I identified it as
+// a frontend UI element, which clearly placed it under frontend instructions.
+
+// 2. Instruction Hierarchy:
+// I follow the provided user instructions which establish a clear domain-specific hierarchy:
+// - Frontend tasks → frontend/guidelines.md + frontend/react folder
+// - Backend tasks → backend/guidelines.md
+// - System design tasks → architecture/guidelined.md
+
+// 3. Specificity Principle:
+// When multiple instructions might apply, I prioritize the most specific ones:
+// - Component-specific instructions (e.g., button guidelines in frontend/react folder)
+// - Technology-specific instructions (e.g., shadcn-guidelines.md)
+// - General domain guidelines (e.g., frontend/guidelines.md)
+
+// How you can ensure I use the right instructions:
+
+// 1. Clear Task Categorization:
+// Clearly state whether a task is frontend, backend, or system design when requesting it.
+// Example: "Create a frontend button component" makes the domain explicit.
+
+// 2. Reference Specific Guidelines:
+// If certain guidelines should take precedence, explicitly mention them.
+// Example: "Follow the shadcn-guidelines.md for this button component"
+
+// 3. Establish Clear Hierarchy:
+// If you have multiple guideline files, establish their priority order in your instructions.
+// Example: "For shadcn components, prioritize shadcn-guidelines.md over general frontend guidelines"
+
+// 4. Verify Understanding:
+// Ask me to explain which guidelines I'll be following before I start implementation.
+// Example: "Before you build the button, tell me which guidelines you'll be using"
+
+// 5. Updates to requirements.md:
+// Check the requirements.md file I update to verify I've correctly interpreted and followed
+// the intended guidelines for any given task.
